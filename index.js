@@ -11,7 +11,7 @@ const courses = [
 ];
 
 app.get('/', function(req,res){
-    res.send('hello world!!!!');
+    res.send('This is a web site of Sumit Kulkarni!!!');
 });
 
 app.get('/api/courses', function(req,res){
