@@ -10,6 +10,12 @@ const courses = [
     {id:3 , name:'course3'}
 ];
 
+app.set("view engine" , "hbs");
+
+app.get("",(req,res)=>{
+    res.render('index');
+})
+
 app.get('/', function(req,res){
     res.send('This is a web site of Sumit Kulkarni!!!');
 });
